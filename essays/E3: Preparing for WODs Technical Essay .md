@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Preparing for WODS Technical Essay"
+title: "E3 Preparing for WODS Technical Essay"
 # All dates must be YYYY-MM-DD format!
 date: 2023-02-18
 published: true
