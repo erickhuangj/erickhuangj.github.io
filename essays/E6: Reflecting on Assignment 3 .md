@@ -3,33 +3,46 @@ layout: essay
 type: essay
 title: "E6: Reflecting on Assignment 3"
 # All dates must be YYYY-MM-DD format!
-date: 2023-04-27
+date: 2023-05-12
 published: true
 labels:
   - Assignment 3 
 ---
-Develop a prototype of your entire application that addresses the following points: 
-Show what each page will look like. The pages do not have to be “functional” but the design should clear. <br>
-**A link to my powerpoint <href= https://youtu.be/nlB7gV0zd30> can be found here.**  
+Briefly describe your system (e.g. A store selling Pokemon game cards)<br>
+**My system is a store selling funko pops, keychains, and t-shirts.**
 
-Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart. <br>
-**The design for site shopping cart will be a separate page displaying the quantity ordered for specific products and the price of each. Subtotal and total will be shown as well. If the user chooses to edit their information, a button will be allowed to go back to the products display page. This will work on the site by having users click the purchase button which will then redirect users to the log-in page if they did not sign in. If they did, then it will automatically forward them to the shopping cart page, where they can decide to check out which will then lead to the invoice page.**  
+Any notable shortcomings, bugs, problems, or additional features not implemented?<br>
+**Yes, some shortcomings or features that I was not able to implement was a better interface for the invoice and cart. Unfortunately, I ran out of time to implement more css.**
 
-Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session. <br> 
-**Sessions will be used to manage my cart by saving the quantities ordered in the server. In addition, it will also hold the session id so that users who are logged in will be able to have a unique session id to access their cart. The session will be storing their product type key which will be stored in an array format. Some examples of this are:  {Funko_Pop: [1.2.3] Everybody: [4,5,6].**
+Describe what you are most proud of about your system: <br>
+**What I am most proud about my system is that I can transfer data between the pages through cookies. I am most proud of this because I struggled with understanding how cookies worked.**
 
-How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address.<BR>
-**Access will be avoided when the user has not logged in by bouncing back if an acceptable cookie is not found. The user will then be bounced back to the log-in page where they can log-in which will give them a cookie. The particular security concern is hacking the cookie to access the application. Users are able to modify the cookie and therefore hack the cookie.**
+Describe what you are least happy with your system: <br>
+**What I am least happy with my system is the user interface because I wanted to change it up to be more aesthetically pleasing. However, I did not have the time to do so for this assignment.**
 
-Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary)<br>
-**Upon successful login, we will display user’s name, email, and log in count & time. In addition, a confirmation email will be sent back to the user.  
-We will do this by displaying the user’s name throughout all the pages. On the invoice page, the user will have their name, email, log in count and time display. I currently have the invoice page working, however, need to implement the always displaying username interface.**  
+How was developing this assignment different than assignment #2? <br>
+**I developed this assignment differently than assignment #2 by planning out what I needed to do first instead of just diving into the assignment.**
 
-If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when? <br>
-**N/A**
+When you ran into a problem, what did you do to address it? <br>
+**When I ran into a problem, I addressed it by meeting with Professor Port for help. In addition, I asked my peers for help.**
 
-How are you approaching Assignment 3 differently than Assignment 2? <br>
-**I am approaching assignment 3 differently by starting early and spending more time conceptually first rather than coding and troubleshooting.**  
+Describe what worked well in doing this assignment? <br>
+**Something that worked well in doing this assignment was implementing the transition between pages.**
+
+Describe what did not work well in doing this assignment? <br>
+**Something that did not work well in doing this assignment was figuring out how to transfer data between pages. It took very long since I didn't have a good understanding of cookies initially.**
+
+What did you learn from doing this assignment? <br>
+**What I learned from doing this assignment was how to transfer data between pages through cookies, how to send a confirmation email to users, and how to create a navbar.**
+
+If you could go back in time and do things differently, what would you change? <br>
+**If I could go back in time and do things differently, I would start earlier and dedicate more time. I took a week off before starting assignment 3 which gave me 2 weeks. If I could do it over again, I would not have tooken a week off and instead dived into the assignment.**
+
+Estimate the % of time you spent (a) thinking about how to do something, (b) writing code (but do not include testing, (c) testing and debugging <br>
+**I spent 40% of the time thinking about what I need to do, 40% writing the code, and 20% testing and debugging.**
+
+Assign an estimated percentage on the amount each team member contributed to the assignment (including yourself) and explain briefly your rationale for the percentage breakdown. Be sure to include an overview of what specifically you and your partners contributed (e.g. “I worked on the security and my partner 1 worked on personalization”)<br>
+**This did not apply to me. I did everything myself since I did not work in a group.**
 
  
 
